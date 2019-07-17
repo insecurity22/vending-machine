@@ -77,19 +77,19 @@ void Widget::on_pbreturn_clicked()
     int value;
     QMessageBox msgBox;
 
-    QString str = "500 : "; // If 1250won,
+    QString str = "500 : "; // If 1250 won,
     value = money / 500;
     str.append(QString::number(value)); // 500, 2
     money -= (500 * value);
 
     str.append("\n100 : ");
     value = money / 100;
-    str.append(QString::number(value));
+    str.append(QString::number(value)); // 100, 2
     money -= (100 * value);
 
     str.append("\n50 : ");
     value = money / 50;
-    str.append(QString::number(value));
+    str.append(QString::number(value)); // 50, 1
     money -= (50 * value);
 
     str.append("\n10 : ");
