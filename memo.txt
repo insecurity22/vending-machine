@@ -12,3 +12,8 @@ QString -> int
 QString str;
 str.toInt();
 
+----------------------------------------
+
+ui->lcdNumber->display()
+// lcdNumber objectName에 값 출력
+
