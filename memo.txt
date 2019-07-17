@@ -1,0 +1,12 @@
+int -> QString
+- QString::number() function
+
+int result;
+QString::number(result)
+
+----------------------------------------
+
+QString -> int
+
+QString str;
+str.toInt();
